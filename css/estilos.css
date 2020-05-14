@@ -1,0 +1,38 @@
+body {
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fk36.kn3.net%2F9%2F3%2F5%2FA%2F9%2FD%2FBCC.png&f=1&nofb=1);
+    background-size: auto 100vh;
+    font-family: arial;
+    height: 100vh;
+}
+
+.menu {
+    background-color: white;
+}
+
+.menu ul {
+    display:flex;
+    justify-content: space-around;
+}
+
+.menu li {
+    list-style: none;
+}
+
+a {
+    color: teal;
+    text-decoration: none;  
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.site-subtitle,
+.site-title {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.site-subtitle {
+    font-style: italic;
+}
